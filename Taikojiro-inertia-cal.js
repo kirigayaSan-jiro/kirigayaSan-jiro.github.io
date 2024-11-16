@@ -1,5 +1,5 @@
 'use strict';
-
+//
 var result = document.getElementById('resultArea');
 
 function removeAllChildren(element) {
