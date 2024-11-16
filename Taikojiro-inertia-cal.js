@@ -19,6 +19,7 @@ function calculateButtonClicked() {
 
     //情報取得
     var BPM = document.getElementById('BPM').value;
+    var changeBPM = document.getElementById('cangeBPM').value;
     var distanceNumer = document.getElementById('distanceNumer').value;
     var distanceDenom = document.getElementById('distanceDenom').value;
     var timeNumer = document.getElementById('timeNumer').value;
