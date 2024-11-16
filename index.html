@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://currydry0608hk.github.io/InertiaCalculator/Taikojiro-inertia-cal.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- <meta name="twitter:card" content="summary"> -->
+    <!-- <meta property="og:url" content="https://currydry0608hk.github.io/InertiaCalculator/Taikojiro-inertia-cal.html">
+    <meta property="og:title" content="太鼓さん次郎 慣性計算機">
+    <meta property="og:description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>太鼓さん次郎 慣性計算機</title>
+    <link rel="stylesheet" href="./太鼓さん次郎 慣性計算機_files/Taikojiro-inertia-cal.css">
+</head>
+<body>
+    <h1 class="center">慣性計算機</h1>
+
+    <p class="center">
+        <b>BPM</b><br>
+        <input type="text" id="BPM" value="240" style="text-align: center;" size="10" maxlength="16">
+    </p>
+
+    <p class="center">
+        <b>移動距離</b><br>
+        <input type="text" id="distanceNumer" value="1" style="text-align: center;" size="5" maxlength="16">
+        /
+        <input type="text" id="distanceDenom" value="1" style="text-align: center;" size="5" maxlength="16">
+    </p>
+
+    <p class="center">
+        <b>移動時間</b><br>
+        <input type="text" id="timeNumer" value="1" style="text-align: center;" size="5" maxlength="16">
+        /
+        <input type="text" id="timeDenom" value="1" style="text-align: center;" size="5" maxlength="16">
+    </p>
+
+    <p class="center">
+        <b>正負</b><br>
+        <select id="plusOrMinus">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+        </select>
+    </p>
+
+    <p class="center">
+        <b>加速/減速</b><br>
+        <select id="upOrDown">
+            <option value="up">加速</option>
+            <option value="down">減速</option>
+        </select>
+    </p>
+
+    <p class="center">
+        <b>速度変化</b><br>
+        <select id="NumberOfSpeedChanges">
+            <option value="4Times">4段階</option>
+            <option value="8Times">8段階</option>
+        </select>
+    </p>
+
+    <p class="center">
+        <b>BPM値の小数点第n位までを表示</b><br>
+            (第n+1位で切り捨て)<br>
+        <select id="BPMFloorDigit">
+            <option value="0"> 0</option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5" selected=""> 5</option>
+            <option value="6"> 6</option>
+            <option value="7"> 7</option>
+            <option value="8"> 8</option>
+            <option value="9"> 9</option>
+            <option value="10">10</option>
+        </select>
+    </p>
+
+    <div class="center">
+        <button id="calculateButton" onclick="calculateButtonClicked()">計算する</button>
+    </div>
+
+    <div class="result" id="resultArea"></div>
+
+    <script src="./太鼓さん次郎 慣性計算機_files/Taikojiro-inertia-cal.js.ダウンロード"></script>
+
+
+
+</body></html>
