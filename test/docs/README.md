@@ -1,1 +1,0 @@
-# kirigayaSan-jiro.github.io
